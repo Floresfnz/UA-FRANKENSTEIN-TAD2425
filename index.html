@@ -143,6 +143,13 @@
               const button = document.querySelector('.toggle-notes-button');
               button.textContent = button.textContent === 'Show Notes' ? 'Hide Notes' : 'Show Notes';
           }
+        <nav class="pager" aria-label="Page navigation">
+          <button id="prevBtn" type="button">← Prev</button>
+          <span id="pageLabel" class="pager__label"></span>
+          <button id="nextBtn" type="button">Next →</button>
+          <button id="toggleNotesBtn" type="button" class="toggle-notes-button">Show Notes</button>
+        </nav>
+
       </script>
   </body>
 </html>
